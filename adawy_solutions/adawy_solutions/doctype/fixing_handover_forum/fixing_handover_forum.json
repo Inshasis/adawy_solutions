@@ -1,0 +1,122 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-11-05 21:15:35.048363",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "installer_staff",
+  "column_break_woeae",
+  "installation_date_and_time",
+  "section_break_3fn2r",
+  "hardware_status",
+  "amended_from",
+  "section_break_vcja5",
+  "eng_idcard",
+  "column_break_t1bph",
+  "customer_idcard",
+  "section_break_equj4",
+  "site_survey_signature",
+  "column_break_slt3h",
+  "customer_signature"
+ ],
+ "fields": [
+  {
+   "fieldname": "installer_staff",
+   "fieldtype": "Link",
+   "label": "Installer Staff",
+   "options": "User"
+  },
+  {
+   "fieldname": "column_break_woeae",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "installation_date_and_time",
+   "fieldtype": "Datetime",
+   "label": "Installation Date & Time"
+  },
+  {
+   "fieldname": "section_break_3fn2r",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "hardware_status",
+   "fieldtype": "Table",
+   "label": "Hardware Status",
+   "options": "T-HandOver Hardware Brief"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Fixing HandOver Forum",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_equj4",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "site_survey_signature",
+   "fieldtype": "Signature",
+   "label": "Site Survey Signature"
+  },
+  {
+   "fieldname": "column_break_slt3h",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "customer_signature",
+   "fieldtype": "Signature",
+   "label": "Customer Signature"
+  },
+  {
+   "fieldname": "section_break_vcja5",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "eng_idcard",
+   "fieldtype": "Attach Image",
+   "label": "Eng IDcard"
+  },
+  {
+   "fieldname": "column_break_t1bph",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "customer_idcard",
+   "fieldtype": "Attach Image",
+   "label": "Customer IDcard"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-11-05 22:43:58.982440",
+ "modified_by": "Administrator",
+ "module": "Adawy Solutions",
+ "name": "Fixing HandOver Forum",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

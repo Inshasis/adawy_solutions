@@ -1,0 +1,75 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-11-06 06:59:05.248960",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "floor",
+  "section",
+  "brief",
+  "equipment",
+  "problem",
+  "attach1",
+  "attach2",
+  "attach3"
+ ],
+ "fields": [
+  {
+   "fieldname": "floor",
+   "fieldtype": "Select",
+   "label": "Floor",
+   "options": "Basement-1\nBasement-2\nGF\\Lobby\n1st Floor\n2nd Floor\n3th Floor\n4th Floor\n5th Floor\n6th Floor\n7th Floor\n8th Floor\n9th Floor\n10th Floor\n11th Floor\n12th Floor\n13th Floor\n14th Floor\n15th Floor\nRoof-Top"
+  },
+  {
+   "fieldname": "equipment",
+   "fieldtype": "Select",
+   "label": "Equipment",
+   "options": "VOIP\nWIFI\nIPTV\nDesktop\nCamera\nIntercom\nServer\nDoorbell\nIOT"
+  },
+  {
+   "fieldname": "section",
+   "fieldtype": "Select",
+   "label": "Section",
+   "options": "Room\nReception\nOffice\nBusiness-Center\nSecurity\nCorridor\nKitchen\nRestaurant\nBar\nCoffee Shop\nconference Hall\nGym\nSpa\nMessage"
+  },
+  {
+   "fieldname": "problem",
+   "fieldtype": "Long Text",
+   "label": "Problem"
+  },
+  {
+   "fieldname": "attach1",
+   "fieldtype": "Attach Image",
+   "label": "Attach1"
+  },
+  {
+   "fieldname": "attach2",
+   "fieldtype": "Attach Image",
+   "label": "Attach2"
+  },
+  {
+   "fieldname": "attach3",
+   "fieldtype": "Attach Image",
+   "label": "Attach3"
+  },
+  {
+   "fieldname": "brief",
+   "fieldtype": "Data",
+   "label": "Brief"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-11-06 07:12:32.943158",
+ "modified_by": "Administrator",
+ "module": "Adawy Solutions",
+ "name": "T-Maintenance Report",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

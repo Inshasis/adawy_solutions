@@ -1,0 +1,98 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-11-06 15:06:47.714389",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "floor",
+  "section",
+  "brief",
+  "column_break_i7doi",
+  "model",
+  "sn",
+  "mac_address",
+  "section_break_7liyf",
+  "attach1",
+  "column_break_wwaui",
+  "attach2"
+ ],
+ "fields": [
+  {
+   "fieldname": "floor",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Floor",
+   "options": "\nBasement-1\nBasement-2\nGF\n1st Floor\n2nd Floor\n3th Floor\n4th Floor\n5th Floor\n6th Floor\n7th Floor\n8th Floor\n9th Floor\n10th Floor\n11th Floor\n12th Floor\n13th Floor\n14th Floor\n15th Floor\nRoof-Top"
+  },
+  {
+   "fieldname": "section",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Section",
+   "options": "\nRoom\nReception\nOffice\nBusiness-Center\nSecurity\nCorridor\nKitchen\nRestaurant\nBar\nCoffee Shop\nconference Hall\nGym\nClass\nDesk\\Table"
+  },
+  {
+   "fieldname": "brief",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Brief"
+  },
+  {
+   "fieldname": "model",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Model",
+   "options": "Item"
+  },
+  {
+   "fetch_from": "model.custom_sr_no",
+   "fieldname": "sn",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "SN"
+  },
+  {
+   "fetch_from": "model.custom_mac_address",
+   "fieldname": "mac_address",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Mac Address"
+  },
+  {
+   "fieldname": "column_break_i7doi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_7liyf",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "attach1",
+   "fieldtype": "Attach Image",
+   "label": "Attach1"
+  },
+  {
+   "fieldname": "column_break_wwaui",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "attach2",
+   "fieldtype": "Attach Image",
+   "label": "Attach2"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-11-06 15:46:47.222363",
+ "modified_by": "Administrator",
+ "module": "Adawy Solutions",
+ "name": "HandOver Hardware Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,187 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:HO-{MM}-{#####}",
+ "creation": "2023-11-06 14:56:58.105019",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "handover_duration",
+  "column_break_lxxmc",
+  "handover_date",
+  "section_break_ft69e",
+  "staff_code",
+  "column_break_fxmln",
+  "eng_name",
+  "column_break_6xemw",
+  "staff_contact_no",
+  "customer_section",
+  "customer_name",
+  "address",
+  "column_break_ax2bt",
+  "contact_person",
+  "google_location",
+  "column_break_uejbo",
+  "contact_no",
+  "section_break_pnnbv",
+  "location_and_hardware_brief",
+  "section_break_t2jyz",
+  "brief_description",
+  "section_break_5f1ns",
+  "1st_party_signature",
+  "column_break_ks0qe",
+  "2nd_party_signature"
+ ],
+ "fields": [
+  {
+   "fieldname": "handover_duration",
+   "fieldtype": "Duration",
+   "label": "HandOver Duration"
+  },
+  {
+   "fieldname": "column_break_lxxmc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Now",
+   "fieldname": "handover_date",
+   "fieldtype": "Datetime",
+   "label": "HandOver Date"
+  },
+  {
+   "fieldname": "section_break_ft69e",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "staff_code",
+   "fieldtype": "Data",
+   "label": "Staff Code"
+  },
+  {
+   "fieldname": "column_break_fxmln",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "eng_name",
+   "fieldtype": "Data",
+   "label": "Eng Name"
+  },
+  {
+   "fieldname": "column_break_6xemw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "__user",
+   "fieldname": "staff_contact_no",
+   "fieldtype": "Link",
+   "label": "Staff Contact No",
+   "options": "User"
+  },
+  {
+   "fieldname": "customer_section",
+   "fieldtype": "Section Break",
+   "label": "Customer"
+  },
+  {
+   "fieldname": "customer_name",
+   "fieldtype": "Link",
+   "label": "Customer Name",
+   "options": "Customer"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Link",
+   "label": "Address",
+   "options": "Address"
+  },
+  {
+   "fieldname": "column_break_ax2bt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "contact_person",
+   "fieldtype": "Link",
+   "label": "Contact Person",
+   "options": "Contact"
+  },
+  {
+   "fieldname": "google_location",
+   "fieldtype": "Data",
+   "label": "Google Location"
+  },
+  {
+   "fieldname": "column_break_uejbo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "contact_person.mobile_no",
+   "fieldname": "contact_no",
+   "fieldtype": "Data",
+   "label": "Contact No"
+  },
+  {
+   "fieldname": "section_break_pnnbv",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "location_and_hardware_brief",
+   "fieldtype": "Table",
+   "label": "Location and Hardware Brief",
+   "options": "HandOver Hardware Table"
+  },
+  {
+   "fieldname": "section_break_t2jyz",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "brief_description",
+   "fieldtype": "Small Text",
+   "label": "Brief Description"
+  },
+  {
+   "fieldname": "section_break_5f1ns",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "1st_party_signature",
+   "fieldtype": "Signature",
+   "label": "1st Party Signature"
+  },
+  {
+   "fieldname": "column_break_ks0qe",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "2nd_party_signature",
+   "fieldtype": "Signature",
+   "label": "2nd Party Signature"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-11-06 16:36:43.077780",
+ "modified_by": "Administrator",
+ "module": "Adawy Solutions",
+ "name": "HandOver",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,249 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "CSV.#####",
+ "creation": "2023-11-06 12:35:06.469821",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "eng_name",
+  "column_break_8lnmp",
+  "survey_date",
+  "survey_duration",
+  "customer_section_section",
+  "customer",
+  "section_break_zbfqf",
+  "location",
+  "column_break_139es",
+  "related_person",
+  "mobile_no",
+  "email_address",
+  "section_break_epbfl",
+  "floor_describtion",
+  "section_break_gpzrb",
+  "total_wifi",
+  "column_break_qsbxe",
+  "total_voip",
+  "column_break_libx4",
+  "total_iptv",
+  "column_break_1nzy1",
+  "total_switchport",
+  "total_switches_section",
+  "switch_24port",
+  "column_break_hwhvp",
+  "switch_48port",
+  "section_break_lu1rb",
+  "whole_budling_description",
+  "section_break_ssaew",
+  "eng_signature",
+  "column_break_u0hel",
+  "customer_signature",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "default": "__user",
+   "fieldname": "eng_name",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Eng Name",
+   "options": "User",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_8lnmp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "survey_date",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "label": "Survey Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "survey_duration",
+   "fieldtype": "Duration",
+   "label": "Survey Duration"
+  },
+  {
+   "fieldname": "customer_section_section",
+   "fieldtype": "Section Break",
+   "label": "Customer Section"
+  },
+  {
+   "fieldname": "customer",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Customer",
+   "options": "Customer"
+  },
+  {
+   "fieldname": "section_break_zbfqf",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Link",
+   "label": "Location",
+   "options": "Address"
+  },
+  {
+   "fieldname": "column_break_139es",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "related_person",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Related Person",
+   "options": "Contact"
+  },
+  {
+   "fetch_from": "related_person.mobile_no",
+   "fieldname": "mobile_no",
+   "fieldtype": "Data",
+   "label": "Mobile No"
+  },
+  {
+   "fetch_from": "related_person.email_id",
+   "fieldname": "email_address",
+   "fieldtype": "Data",
+   "label": "Email Address"
+  },
+  {
+   "fieldname": "section_break_epbfl",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "floor_describtion",
+   "fieldtype": "Table",
+   "label": "Floor Describtion",
+   "options": "T-Floor equipment Calculation"
+  },
+  {
+   "fieldname": "section_break_gpzrb",
+   "fieldtype": "Section Break",
+   "label": "Total Equipment"
+  },
+  {
+   "default": "0",
+   "fieldname": "total_wifi",
+   "fieldtype": "Int",
+   "label": "Total WIFI"
+  },
+  {
+   "fieldname": "column_break_qsbxe",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "total_voip",
+   "fieldtype": "Int",
+   "label": "Total VOIP"
+  },
+  {
+   "fieldname": "column_break_libx4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "total_iptv",
+   "fieldtype": "Int",
+   "label": "Total IPTV"
+  },
+  {
+   "fieldname": "column_break_1nzy1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "total_switchport",
+   "fieldtype": "Int",
+   "label": "Total SwitchPort"
+  },
+  {
+   "fieldname": "total_switches_section",
+   "fieldtype": "Section Break",
+   "label": "Total Switches"
+  },
+  {
+   "fieldname": "switch_24port",
+   "fieldtype": "Int",
+   "label": "Switch 24Port"
+  },
+  {
+   "fieldname": "column_break_hwhvp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "switch_48port",
+   "fieldtype": "Int",
+   "label": "Switch 48port"
+  },
+  {
+   "fieldname": "section_break_lu1rb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "whole_budling_description",
+   "fieldtype": "Text Editor",
+   "label": "Whole Budling Description"
+  },
+  {
+   "fieldname": "section_break_ssaew",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "eng_signature",
+   "fieldtype": "Signature",
+   "label": "Eng Signature"
+  },
+  {
+   "fieldname": "column_break_u0hel",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "customer_signature",
+   "fieldtype": "Signature",
+   "label": "Customer Signature"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Customer Site Survey",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-11-06 12:35:06.469821",
+ "modified_by": "Administrator",
+ "module": "Adawy Solutions",
+ "name": "Customer Site Survey",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
