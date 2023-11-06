@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include adawy_solutions *.css
+recursive-include adawy_solutions *.csv
+recursive-include adawy_solutions *.html
+recursive-include adawy_solutions *.ico
+recursive-include adawy_solutions *.js
+recursive-include adawy_solutions *.json
+recursive-include adawy_solutions *.md
+recursive-include adawy_solutions *.png
+recursive-include adawy_solutions *.py
+recursive-include adawy_solutions *.svg
+recursive-include adawy_solutions *.txt
+recursive-exclude adawy_solutions *.pyc
