@@ -10,12 +10,19 @@
   "floors",
   "floor_describtion",
   "brief",
-  "wifi",
+  "column_break_bdeoj",
   "voip",
   "iptv",
+  "wifi",
+  "cctv",
+  "column_break_nvpce",
+  "24port",
+  "48port",
   "switch_ports",
+  "section_break_uznbt",
   "attach1",
   "attach2",
+  "column_break_ol1ox",
   "attach3",
   "attach4"
  ],
@@ -80,12 +87,44 @@
    "fieldname": "attach4",
    "fieldtype": "Attach Image",
    "label": "Attach4"
+  },
+  {
+   "default": "0",
+   "fieldname": "cctv",
+   "fieldtype": "Int",
+   "label": "CCTV"
+  },
+  {
+   "fieldname": "24port",
+   "fieldtype": "Int",
+   "label": "24port"
+  },
+  {
+   "fieldname": "48port",
+   "fieldtype": "Int",
+   "label": "48port"
+  },
+  {
+   "fieldname": "section_break_uznbt",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_ol1ox",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_bdeoj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_nvpce",
+   "fieldtype": "Column Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2023-11-06 12:45:57.281908",
+ "modified": "2023-11-07 16:02:56.434865",
  "modified_by": "Administrator",
  "module": "Adawy Solutions",
  "name": "T-Floor equipment Calculation",

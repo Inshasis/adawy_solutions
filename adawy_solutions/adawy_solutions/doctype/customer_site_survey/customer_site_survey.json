@@ -23,12 +23,14 @@
   "section_break_epbfl",
   "floor_describtion",
   "section_break_gpzrb",
-  "total_wifi",
-  "column_break_qsbxe",
   "total_voip",
-  "column_break_libx4",
+  "column_break_qsbxe",
   "total_iptv",
+  "column_break_libx4",
+  "total_wifi",
   "column_break_1nzy1",
+  "total_cctv",
+  "column_break_hkhst",
   "total_switchport",
   "total_switches_section",
   "switch_24port",
@@ -218,12 +220,21 @@
    "options": "Customer Site Survey",
    "print_hide": 1,
    "read_only": 1
+  },
+  {
+   "fieldname": "total_cctv",
+   "fieldtype": "Int",
+   "label": "Total CCTV"
+  },
+  {
+   "fieldname": "column_break_hkhst",
+   "fieldtype": "Column Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-11-06 12:35:06.469821",
+ "modified": "2023-11-06 19:47:55.407650",
  "modified_by": "Administrator",
  "module": "Adawy Solutions",
  "name": "Customer Site Survey",
