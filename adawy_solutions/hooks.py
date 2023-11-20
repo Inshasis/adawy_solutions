@@ -26,14 +26,15 @@ app_license = "MIT"
 # webform_include_css = {"doctype": "public/css/doctype.css"}
 
 # include js in page
-# page_js = {"page" : "public/js/file.js"}
+# page_js = {"page" : "public/js/file.js"}Opportunity
 
 # include js in doctype views
 doctype_js = {
     "Item" : "public/js/item.js",
     "Sales Invoice" : "public/js/sales_invoice.js",
     "Sales Order" : "public/js/sales_order.js",
-    "Quotation" : "public/js/quotation.js"
+    "Quotation" : "public/js/quotation.js",
+    "Opportunity" : "public/js/opportunity.js"
     }
 # doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}

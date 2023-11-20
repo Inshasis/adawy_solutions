@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "CSV.#####",
+ "autoname": "format:{customer}/{MM}-{YY}/{##}",
  "creation": "2023-11-06 12:35:06.469821",
  "default_view": "List",
  "doctype": "DocType",
@@ -14,8 +14,11 @@
   "survey_duration",
   "customer_section_section",
   "customer",
+  "customer_name",
   "section_break_zbfqf",
   "location",
+  "map_location",
+  "location_open",
   "column_break_139es",
   "related_person",
   "mobile_no",
@@ -80,7 +83,8 @@
    "fieldtype": "Link",
    "in_list_view": 1,
    "label": "Customer",
-   "options": "Customer"
+   "options": "Customer",
+   "reqd": 1
   },
   {
    "fieldname": "section_break_zbfqf",
@@ -120,9 +124,10 @@
    "fieldtype": "Section Break"
   },
   {
+   "allow_bulk_edit": 1,
    "fieldname": "floor_describtion",
    "fieldtype": "Table",
-   "label": "Floor Describtion",
+   "label": "Network Node Description",
    "options": "T-Floor equipment Calculation"
   },
   {
@@ -229,16 +234,34 @@
   {
    "fieldname": "column_break_hkhst",
    "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "customer.customer_name",
+   "fieldname": "customer_name",
+   "fieldtype": "Data",
+   "label": "Customer Name",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "location.custom_google_map_link",
+   "fieldname": "map_location",
+   "fieldtype": "Data",
+   "label": "Map Location"
+  },
+  {
+   "fieldname": "location_open",
+   "fieldtype": "Data",
+   "label": "Location Open"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-11-06 19:47:55.407650",
+ "modified": "2023-11-21 00:20:55.168377",
  "modified_by": "Administrator",
  "module": "Adawy Solutions",
  "name": "Customer Site Survey",
- "naming_rule": "Expression (old style)",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {
