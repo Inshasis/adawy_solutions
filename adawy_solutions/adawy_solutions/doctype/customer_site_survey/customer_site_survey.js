@@ -62,7 +62,10 @@ frappe.ui.form.on('Customer Site Survey', {
 	        frm.set_value("survey_date",frappe.datetime.now_datetime());
 		    frm.set_df_property('survey_duration','hidden', 1);
 	    }
-	}
+	},
+    location_open(frm){
+        var myWin = window.open(cur_frm.doc.map_location);
+    }
     
 });
 
