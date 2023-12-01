@@ -39,6 +39,10 @@
   "switch_24port",
   "column_break_hwhvp",
   "switch_48port",
+  "total_rack_section",
+  "total_rack_15u",
+  "column_break_io2tf",
+  "total_rack_42u",
   "section_break_lu1rb",
   "whole_budling_description",
   "section_break_ssaew",
@@ -250,14 +254,35 @@
   },
   {
    "fieldname": "location_open",
-   "fieldtype": "Data",
+   "fieldtype": "Button",
    "label": "Location Open"
+  },
+  {
+   "fieldname": "total_rack_section",
+   "fieldtype": "Section Break",
+   "label": "Total Rack"
+  },
+  {
+   "default": "0",
+   "fieldname": "total_rack_15u",
+   "fieldtype": "Int",
+   "label": "Total Rack 15\\22u"
+  },
+  {
+   "fieldname": "column_break_io2tf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "total_rack_42u",
+   "fieldtype": "Int",
+   "label": "Total Rack 42U"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-11-21 00:20:55.168377",
+ "modified": "2023-12-01 23:39:24.559842",
  "modified_by": "Administrator",
  "module": "Adawy Solutions",
  "name": "Customer Site Survey",
@@ -279,5 +304,6 @@
  ],
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "track_changes": 1
 }

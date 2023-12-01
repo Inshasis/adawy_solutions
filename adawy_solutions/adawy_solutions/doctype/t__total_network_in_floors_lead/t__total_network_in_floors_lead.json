@@ -1,0 +1,102 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-11-28 08:11:56.741201",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "floor",
+  "column_break_1wswh",
+  "floor_brief",
+  "section_break_sqpci",
+  "switch_type",
+  "column_break_2als7",
+  "switch_model_brand",
+  "column_break_t7fxk",
+  "vlaning_conf",
+  "column_break_cus7l",
+  "rack_h_w_d",
+  "qty",
+  "uplink"
+ ],
+ "fields": [
+  {
+   "fieldname": "floor",
+   "fieldtype": "Select",
+   "label": "Floor",
+   "options": "\nBasement-1\nBasement-2\nGF\n1st Floor\n2nd Floor\n3th Floor\n4th Floor\n5th Floor\n6th Floor\n7th Floor\n8th Floor\n9th Floor\n10th Floor\n11th Floor\n12th Floor\n13th Floor\n14th Floor\n15th Floor\nPenth House\nRoof-Top"
+  },
+  {
+   "fieldname": "column_break_1wswh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "floor_brief",
+   "fieldtype": "Data",
+   "label": "Floor Brief"
+  },
+  {
+   "fieldname": "section_break_sqpci",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "switch_type",
+   "fieldtype": "Select",
+   "label": "Switch Type",
+   "options": "\nLayer-2\nLayer-3\nUn-Manage"
+  },
+  {
+   "fieldname": "column_break_2als7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "switch_model_brand",
+   "fieldtype": "Data",
+   "label": "Switch Model \\ Brand"
+  },
+  {
+   "fieldname": "column_break_t7fxk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "vlaning_conf",
+   "fieldtype": "Select",
+   "label": "Vlaning Conf",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_cus7l",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "rack_h_w_d",
+   "fieldtype": "Data",
+   "label": "Rack (H*W* D)"
+  },
+  {
+   "fieldname": "qty",
+   "fieldtype": "Data",
+   "label": "Qty"
+  },
+  {
+   "fieldname": "uplink",
+   "fieldtype": "Select",
+   "label": "Uplink",
+   "options": "\nFiber\nCat5\nCat6\nCat6a"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-12-01 23:41:01.675625",
+ "modified_by": "Administrator",
+ "module": "Adawy Solutions",
+ "name": "T- Total Network in Floors Lead",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

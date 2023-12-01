@@ -1,0 +1,61 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-11-27 00:22:30.255251",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "floor",
+  "floor_brief",
+  "tv",
+  "column_break_1wswh",
+  "signage",
+  "total__device"
+ ],
+ "fields": [
+  {
+   "fieldname": "floor",
+   "fieldtype": "Select",
+   "label": "Floor",
+   "options": "\nBasement-1\nBasement-2\nGF\n1st Floor\n2nd Floor\n3th Floor\n4th Floor\n5th Floor\n6th Floor\n7th Floor\n8th Floor\n9th Floor\n10th Floor\n11th Floor\n12th Floor\n13th Floor\n14th Floor\n15th Floor\nPenth House\nRoof-Top"
+  },
+  {
+   "fieldname": "floor_brief",
+   "fieldtype": "Data",
+   "label": "Floor Brief"
+  },
+  {
+   "fieldname": "tv",
+   "fieldtype": "Data",
+   "label": "TV"
+  },
+  {
+   "fieldname": "column_break_1wswh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "signage",
+   "fieldtype": "Data",
+   "label": "Signage"
+  },
+  {
+   "fieldname": "total__device",
+   "fieldtype": "Data",
+   "label": "Total  Device"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-12-01 23:40:51.178992",
+ "modified_by": "Administrator",
+ "module": "Adawy Solutions",
+ "name": "T- Total IPTV in Floors Lead",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

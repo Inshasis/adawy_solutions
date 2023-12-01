@@ -397,6 +397,22 @@ frappe.ui.form.on('T-Floor equipment Calculation', {
             total_swith_port += d.switch_ports;
         });
         frm.set_value('total_switchport', total_swith_port);
+    },
+    custom_rack_15u:function(frm, cdt, cdn){
+        let d = locals[cdt][cdn];        
+        var total_rack_15u = 0;
+        frm.doc.floor_describtion.forEach(function(d) {
+            total_rack_15u += d.custom_rack_15u;
+        });
+        frm.set_value('total_rack_15u', total_rack_15u);        
+    },
+    custom_rack_42u:function(frm, cdt, cdn){
+        let d = locals[cdt][cdn];        
+        var total_rack_42u = 0;
+        frm.doc.floor_describtion.forEach(function(d) {
+            total_rack_42u += d.custom_rack_42u;
+        });
+        frm.set_value('total_rack_42u', total_rack_42u);        
     }
     
     

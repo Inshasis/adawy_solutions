@@ -1,0 +1,346 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-11-27 00:39:18.408906",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "existing_iptv_tab",
+  "iptv_solution",
+  "column_break_e4epl",
+  "tv_type",
+  "column_break_k16vu",
+  "room_connectivity",
+  "column_break_0wnjp",
+  "setup_box_type",
+  "total_channels",
+  "section_break_mufdz",
+  "iptv_floor_calculation",
+  "section_break_y4x0f",
+  "total_rooms_tv",
+  "column_break_impqi",
+  "total_signage",
+  "column_break_7flw0",
+  "total_tvs",
+  "section_break_q2l1u",
+  "extra_brief",
+  "amended_from",
+  "existing_voip_solution_tab",
+  "telephone_solution",
+  "column_break_njhdf",
+  "provider",
+  "column_break_rkchx",
+  "connectivity_brief",
+  "section_break_2z9qi",
+  "pbx_type",
+  "column_break_ad9g3",
+  "pbx_brand",
+  "column_break_cf1kz",
+  "pbx_brief",
+  "section_break_nc8fb",
+  "brief_of_telephones",
+  "section_break_gxq5g",
+  "total_rooms_phones",
+  "column_break_wjdqs",
+  "total_bathrooms_phones",
+  "column_break_qraf9",
+  "total_office_phones",
+  "column_break_bujmc",
+  "all_phones_in_total",
+  "section_break_hbo8o",
+  "description",
+  "tab_break_iphzb",
+  "network_solution_table",
+  "section_break_cf03a",
+  "description_network",
+  "existing_wifi_tab",
+  "wifi_solution_table",
+  "section_break_ivzq8",
+  "wifi_destription"
+ ],
+ "fields": [
+  {
+   "fieldname": "existing_iptv_tab",
+   "fieldtype": "Tab Break",
+   "label": "Existing IPTV"
+  },
+  {
+   "fieldname": "iptv_solution",
+   "fieldtype": "Select",
+   "label": "IPTV Solution",
+   "options": "\nDish Distribution\nMiddleware + Streamer\nModulator Distribution\nDirect Internet"
+  },
+  {
+   "fieldname": "column_break_e4epl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tv_type",
+   "fieldtype": "Select",
+   "label": "TV Type",
+   "options": "\nLCD TV\nCRT TV\nSmart TV Samsung (Tizen)\nSmart TV LG (WebOS)\nSmart TV Android"
+  },
+  {
+   "fieldname": "column_break_k16vu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "room_connectivity",
+   "fieldtype": "Select",
+   "label": "Room Connectivity",
+   "options": "\nCoaxial Cable Direct\nNetwork Cable Direct\nCoaxial Cable Receiver\nSetup Box (Android)\nSetup Box (Linux)"
+  },
+  {
+   "fieldname": "column_break_0wnjp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "setup_box_type",
+   "fieldtype": "Select",
+   "label": "Setup Box Type",
+   "options": "\nSTB (Linux)\nSTB (Android)\nOther"
+  },
+  {
+   "fieldname": "total_channels",
+   "fieldtype": "Data",
+   "label": "Total Channels"
+  },
+  {
+   "fieldname": "section_break_mufdz",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "iptv_floor_calculation",
+   "fieldtype": "Table",
+   "label": "IPTV Floor Calculation",
+   "options": "T- Total IPTV in Floors Lead"
+  },
+  {
+   "fieldname": "section_break_y4x0f",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "total_rooms_tv",
+   "fieldtype": "Int",
+   "label": "Total Rooms TV"
+  },
+  {
+   "fieldname": "column_break_impqi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total_signage",
+   "fieldtype": "Int",
+   "label": "Total Signage "
+  },
+  {
+   "fieldname": "column_break_7flw0",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total_tvs",
+   "fieldtype": "Int",
+   "label": "Total Tvs"
+  },
+  {
+   "fieldname": "section_break_q2l1u",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "extra_brief",
+   "fieldtype": "Text Editor",
+   "label": "Extra Brief"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Customer Existing  Solution",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "existing_voip_solution_tab",
+   "fieldtype": "Tab Break",
+   "label": "Existing VOIP"
+  },
+  {
+   "fieldname": "telephone_solution",
+   "fieldtype": "Select",
+   "label": "Telephone Solution",
+   "options": "\nPRI Link\nFXO (LandLine)\nGSM (Simcard)\nSIP Trunk"
+  },
+  {
+   "fieldname": "column_break_njhdf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "provider",
+   "fieldtype": "Select",
+   "label": "Provider",
+   "options": "\nOmanTel\nOoredoo\nAwasr\nVodafone"
+  },
+  {
+   "fieldname": "column_break_rkchx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "connectivity_brief",
+   "fieldtype": "Data",
+   "label": "Connectivity Brief"
+  },
+  {
+   "fieldname": "section_break_2z9qi",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "pbx_type",
+   "fieldtype": "Select",
+   "label": "PBX Type",
+   "options": "\nAnalogue\nIP Base\nHybrid"
+  },
+  {
+   "fieldname": "column_break_ad9g3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "pbx_brand",
+   "fieldtype": "Select",
+   "label": "PBX Brand",
+   "options": "\nPanasonic\nSiemens\nAvaya\nAsterisk\nIsabel\nCisco\nOpenVox\nGrandStream\nDinstar\nAlcatel\nOther"
+  },
+  {
+   "fieldname": "column_break_cf1kz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "pbx_brief",
+   "fieldtype": "Data",
+   "label": "PBX Brief"
+  },
+  {
+   "fieldname": "section_break_nc8fb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "brief_of_telephones",
+   "fieldtype": "Table",
+   "label": "Brief Of Telephones",
+   "options": "T- Total VOIP in Floors Lead"
+  },
+  {
+   "fieldname": "section_break_gxq5g",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "total_rooms_phones",
+   "fieldtype": "Int",
+   "label": "Total Rooms Phones"
+  },
+  {
+   "fieldname": "column_break_wjdqs",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total_bathrooms_phones",
+   "fieldtype": "Int",
+   "label": "Total Bathrooms Phones"
+  },
+  {
+   "fieldname": "column_break_qraf9",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total_office_phones",
+   "fieldtype": "Int",
+   "label": "Total Office Phones"
+  },
+  {
+   "fieldname": "column_break_bujmc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "all_phones_in_total",
+   "fieldtype": "Int",
+   "label": "All Phones In Total"
+  },
+  {
+   "fieldname": "section_break_hbo8o",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Text Editor",
+   "label": "Description IPTV"
+  },
+  {
+   "fieldname": "tab_break_iphzb",
+   "fieldtype": "Tab Break",
+   "label": "Existing Network"
+  },
+  {
+   "fieldname": "network_solution_table",
+   "fieldtype": "Table",
+   "label": "Network Solution Table",
+   "options": "T- Total Network in Floors Lead"
+  },
+  {
+   "fieldname": "section_break_cf03a",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "description_network",
+   "fieldtype": "Text Editor",
+   "label": "Description Network"
+  },
+  {
+   "fieldname": "existing_wifi_tab",
+   "fieldtype": "Tab Break",
+   "label": "Existing WIFI"
+  },
+  {
+   "fieldname": "wifi_solution_table",
+   "fieldtype": "Table",
+   "label": "Wifi Solution Table",
+   "options": "T- Total WIfi in Floors Lead"
+  },
+  {
+   "fieldname": "section_break_ivzq8",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "wifi_destription",
+   "fieldtype": "Text Editor",
+   "label": "WIFI Destription"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-12-01 23:40:04.697710",
+ "modified_by": "Administrator",
+ "module": "Adawy Solutions",
+ "name": "Customer Existing  Solution",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

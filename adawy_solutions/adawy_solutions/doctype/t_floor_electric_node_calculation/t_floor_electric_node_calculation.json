@@ -1,0 +1,120 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-11-17 10:40:13.022740",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_syvxd",
+  "floors",
+  "column_break_g6t5r",
+  "brief",
+  "section_break_3bj63",
+  "one_port_socket",
+  "column_break_45jzo",
+  "sec_port_socket",
+  "column_break_rzduz",
+  "wire_size",
+  "column_break_xcidb",
+  "wire_meter",
+  "section_break_uznbt",
+  "attach1",
+  "column_break_3acem",
+  "attach2"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_syvxd",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "floors",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Floor",
+   "options": "Basement-1\nBasement-2\nGF\n1st Floor\n2nd Floor\n3th Floor\n4th Floor\n5th Floor\n6th Floor\n7th Floor\n8th Floor\n9th Floor\n10th Floor\n11th Floor\n12th Floor\n13th Floor\n14th Floor\n15th Floor\nPanth House\nRoof-Top"
+  },
+  {
+   "fieldname": "column_break_g6t5r",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "brief",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Brief"
+  },
+  {
+   "fieldname": "section_break_3bj63",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "one_port_socket",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "1 Socket"
+  },
+  {
+   "fieldname": "column_break_45jzo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "sec_port_socket",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "2 Socket"
+  },
+  {
+   "fieldname": "column_break_rzduz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "wire_size",
+   "fieldtype": "Float",
+   "label": "Wire Size"
+  },
+  {
+   "fieldname": "column_break_xcidb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "wire_meter",
+   "fieldtype": "Int",
+   "label": "Wire Meter"
+  },
+  {
+   "fieldname": "section_break_uznbt",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "attach1",
+   "fieldtype": "Attach Image",
+   "label": "Attach1"
+  },
+  {
+   "fieldname": "column_break_3acem",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "attach2",
+   "fieldtype": "Attach Image",
+   "label": "Attach2"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-12-01 23:40:30.879599",
+ "modified_by": "Administrator",
+ "module": "Adawy Solutions",
+ "name": "T-Floor Electric Node Calculation",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
